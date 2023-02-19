@@ -1,0 +1,237 @@
+/* body {
+  background-image: url(images/background.jpg);
+  width: 701px;
+  height: 717px;
+} */
+
+header {
+  background-image: url(images/background.jpg);
+  opacity: 0.6;
+  height: 800px;
+
+  /* background: rgba(16, 0, 0, 0.7); */
+}
+.logonetflix img {
+  width: 250px;
+}
+
+.neflixheaderbutton select,
+button {
+  border: 2px solid whitesmoke;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+.signbutton {
+  background-color: #e50914;
+  margin-left: 30px;
+}
+
+#first {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* #hsecond {
+  display: flex;
+} */
+
+.heading,
+.mail {
+  /* font-size: 30px; */
+  /* margin-left: 20%;
+  margin-right: 20%; */
+
+  /* display: flex;
+    justify-content: center; */
+}
+
+.mail input {
+  width: 700px;
+  /* margin-left: 300px; */
+  /* margin-right: 0px; */
+}
+
+.heading h1,
+h2,
+h3 {
+  /* font-size: 30px; */
+  color: white;
+  text-align: center;
+}
+.heading > h1 {
+  font-size: 50px;
+}
+
+.heading > h2 {
+  font-size: 30px;
+}
+
+.mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* border: 5px solid red; */
+  /* position: fixed; */
+}
+.mail button {
+  background-color: #e50914;
+  /* margin-right: 0px; */
+  /* position: relative;*/
+  margin-bottom: 50px;
+  margin-left: 2px;
+}
+
+.mail button,
+input {
+  height: 70px;
+}
+
+#mone {
+  border-top: 10px solid rgb(105, 96, 96);
+}
+
+#mone,
+#mtwo,
+#mthree,
+#mfour {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 10px solid rgb(105, 96, 96);
+  /* min-height: 500px; */
+  margin-bottom: 10px;
+  /* margin-top: px; */
+}
+
+.para1,
+.para2,
+.para3,
+.para4 {
+  font-size: 30px;
+  color: white;
+}
+
+#done {
+  display: flex;
+  justify-content: space-around;
+  /* color: white; */
+}
+.ul {
+  list-style: none;
+}
+
+footer {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+.img1 {
+  position: relative;
+  /* border: 5px solid white; */
+}
+
+.net-frame {
+  position: relative;
+}
+
+.v-one {
+  position: absolute;
+  top: 94px;
+  left: 85px;
+  width: 460px;
+}
+
+@media (max-width: 850px) {
+  #mone,
+  #mtwo,
+  #mthree,
+  #mfour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 10px solid rgb(105, 96, 96);
+    /* min-height: 500px; */
+    margin-bottom: 10px;
+    /* margin-top: px; */
+  }
+}
+
+@media (max-width: 590px) {
+  .heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #done {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .para1,
+  .para2,
+  .para3,
+  .para4 {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+  .logonetflix > img {
+    width: 130px;
+  }
+  .logonetflix {
+    display: flex;
+    align-items: center;
+    /* border: 5px solid red; */
+  }
+  .neflixheaderbutton {
+    /* margin-bottom: 30px; */
+    /* border: 5px solid red; */
+    /* width: 500px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .select_option > option {
+    /* padding: 5px; */
+    font-size: 20px;
+  }
+
+  .signbutton,
+  .select_option {
+    /* margin-bottom: 50px; */
+    /* border: 5px solid blue; */
+  }
+  .mail {
+    display: flex;
+    flex-direction: column;
+  }
+  .mail input {
+    width: 300px;
+    /* margin-left: 300px; */
+    /* margin-right: 0px; */
+  }
+  .mail button,
+  input {
+    height: 50px;
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
